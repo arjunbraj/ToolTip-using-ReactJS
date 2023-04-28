@@ -7,6 +7,9 @@
     margin: auto;
 }
 
+/* classes for the tooltip component */
+
+/* div containing the text to hover over */
 .toolTip {
     position: relative;
     display: inline-block;
@@ -17,6 +20,7 @@
     font-size: larger;
 }
 
+/* span in which text of tooptip is present */
 .toolTip .toolTipText {
     visibility: hidden;
     width: 300px;

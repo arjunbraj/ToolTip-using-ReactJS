@@ -1,23 +1,29 @@
-// import logo from './logo.svg';
+// for using state
 import { useState } from 'react';
-import './App.css';
+
+// importing ToolTip component
 import ToolTip from './ToolTip';
 
 function App() {
+  // setting up position variable to get the position for the tooltip
   let [position, setPosition] = useState('right');
 
+  // function to set position as top when button is clicked
   const onTopBtnClick = () => {
     setPosition('top');
   }
 
+  // function to set position as bottom when button is clicked
   const onBottomBtnClick = () => {
     setPosition('bottom');
   }
 
+  // function to set position as left when button is clicked
   const onLeftBtnClick = () => {
     setPosition('left');
   }
 
+  // function to set position as right when button is clicked
   const onRightBtnClick = () => {
     setPosition('right');
   }
