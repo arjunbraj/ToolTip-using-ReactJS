@@ -30,13 +30,17 @@ function App() {
 
   return (
     <div>
+    {/* Tooltip component */}
       <ToolTip position = {position} />
+      {/* Buttons to change position of tooltip */}
       <div className='btns' style={{marginTop: '100px'}}>
         <button onClick={onTopBtnClick}>Top</button>
         <button onClick={onBottomBtnClick}>Bottom</button>
         <button onClick={onLeftBtnClick}>Left</button>
         <button onClick={onRightBtnClick}>Right</button>
       </div>
+      {/* div showing the current position of tooltip */}
+      <div style={{marginLeft: '47%', marginTop: '50px', fontSize: 'large'}}>Position: <span style={{color: 'red', textTransform: 'uppercase'}}>{position}</span></div>
     </div>
   );
 }
