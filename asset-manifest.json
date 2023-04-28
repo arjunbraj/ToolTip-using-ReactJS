@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ToolTip-using-ReactJS/static/css/main.2f50c173.css",
+    "main.js": "/ToolTip-using-ReactJS/static/js/main.fb8c0b0a.js",
+    "index.html": "/ToolTip-using-ReactJS/index.html",
+    "main.2f50c173.css.map": "/ToolTip-using-ReactJS/static/css/main.2f50c173.css.map",
+    "main.fb8c0b0a.js.map": "/ToolTip-using-ReactJS/static/js/main.fb8c0b0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f50c173.css",
+    "static/js/main.fb8c0b0a.js"
+  ]
+}
